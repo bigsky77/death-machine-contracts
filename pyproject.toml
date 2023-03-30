@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "death machine"
+version = "0.1.0"
+description = ""
+authors = ["simon simon@bigsky.gg"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.8,<3.10"
+ecdsa = "^0.18.0"
+fastecdsa = "^2.2.3"
+sympy = "^1.11.1"
+cairo-lang = "^0.10.2"
+starknet-py = "^0.13.0a0"
+pytest = "^7.2.0"
+pytest-asyncio = "^0.20.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

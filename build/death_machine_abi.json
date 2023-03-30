@@ -1,0 +1,372 @@
+[
+    {
+        "members": [
+            {
+                "name": "id",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "type",
+                "offset": 1,
+                "type": "felt"
+            },
+            {
+                "name": "status",
+                "offset": 2,
+                "type": "felt"
+            },
+            {
+                "name": "index",
+                "offset": 3,
+                "type": "Grid"
+            },
+            {
+                "name": "description",
+                "offset": 5,
+                "type": "felt"
+            }
+        ],
+        "name": "InputShipState",
+        "size": 6,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
+                "name": "x",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "y",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "Grid",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
+                "name": "id",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "type",
+                "offset": 1,
+                "type": "felt"
+            },
+            {
+                "name": "status",
+                "offset": 2,
+                "type": "felt"
+            },
+            {
+                "name": "index",
+                "offset": 3,
+                "type": "Grid"
+            },
+            {
+                "name": "pc",
+                "offset": 5,
+                "type": "felt"
+            },
+            {
+                "name": "score",
+                "offset": 6,
+                "type": "felt"
+            }
+        ],
+        "name": "ShipState",
+        "size": 7,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
+                "name": "id",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "type",
+                "offset": 1,
+                "type": "felt"
+            },
+            {
+                "name": "status",
+                "offset": 2,
+                "type": "felt"
+            },
+            {
+                "name": "index",
+                "offset": 3,
+                "type": "Grid"
+            },
+            {
+                "name": "raw_index",
+                "offset": 5,
+                "type": "Grid"
+            }
+        ],
+        "name": "SingleBlock",
+        "size": 7,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
+                "name": "number",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "seed",
+                "offset": 1,
+                "type": "State"
+            },
+            {
+                "name": "status",
+                "offset": 3,
+                "type": "felt"
+            },
+            {
+                "name": "reward",
+                "offset": 4,
+                "type": "felt"
+            },
+            {
+                "name": "difficulty",
+                "offset": 5,
+                "type": "felt"
+            },
+            {
+                "name": "timestamp",
+                "offset": 6,
+                "type": "felt"
+            },
+            {
+                "name": "prover",
+                "offset": 7,
+                "type": "felt"
+            },
+            {
+                "name": "score",
+                "offset": 8,
+                "type": "felt"
+            }
+        ],
+        "name": "BlockData",
+        "size": 9,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
+                "name": "s0",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "s1",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "State",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "inputs": [
+            {
+                "name": "loc_x",
+                "type": "felt"
+            },
+            {
+                "name": "loc_y",
+                "type": "felt"
+            }
+        ],
+        "name": "cords_to_index",
+        "outputs": [
+            {
+                "name": "index",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "data": [
+            {
+                "name": "ship_id",
+                "type": "felt"
+            },
+            {
+                "name": "ship_x",
+                "type": "felt"
+            },
+            {
+                "name": "ship_y",
+                "type": "felt"
+            },
+            {
+                "name": "turn",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "ShipDestroyed",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "instructions_len",
+                "type": "felt"
+            },
+            {
+                "name": "instructions",
+                "type": "felt*"
+            },
+            {
+                "name": "spaceships_len",
+                "type": "felt"
+            },
+            {
+                "name": "spaceships",
+                "type": "InputShipState*"
+            },
+            {
+                "name": "player_address",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "simulationSubmit",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "ships_len",
+                "type": "felt"
+            },
+            {
+                "name": "ships",
+                "type": "ShipState*"
+            },
+            {
+                "name": "score",
+                "type": "felt"
+            },
+            {
+                "name": "player_address",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "gameComplete",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "board_len",
+                "type": "felt"
+            },
+            {
+                "name": "board",
+                "type": "SingleBlock*"
+            }
+        ],
+        "keys": [],
+        "name": "boardSet",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "board_len",
+                "type": "felt"
+            },
+            {
+                "name": "board",
+                "type": "SingleBlock*"
+            }
+        ],
+        "keys": [],
+        "name": "boardSummary",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "completed_block",
+                "type": "BlockData"
+            }
+        ],
+        "keys": [],
+        "name": "blockComplete",
+        "type": "event"
+    },
+    {
+        "data": [
+            {
+                "name": "new_block",
+                "type": "BlockData"
+            }
+        ],
+        "keys": [],
+        "name": "blockInitialized",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "seed",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "instructions_sets_len",
+                "type": "felt"
+            },
+            {
+                "name": "instructions_sets",
+                "type": "felt*"
+            },
+            {
+                "name": "instructions_len",
+                "type": "felt"
+            },
+            {
+                "name": "instructions",
+                "type": "felt*"
+            },
+            {
+                "name": "ships_len",
+                "type": "felt"
+            },
+            {
+                "name": "ships",
+                "type": "InputShipState*"
+            }
+        ],
+        "name": "submit_simulation",
+        "outputs": [],
+        "type": "function"
+    }
+]
