@@ -224,13 +224,8 @@ func end_game_summary{syscall_ptr: felt*, range_check_ptr}(ships_len: felt, ship
   tempvar ship = cast(ptr, ShipState*);
   assert ships[ships_len - 1] = ShipState(ship.id, ship.type, ship.status, ship.index, ship.pc, ship.score);
   
-  if(ships[ships_len - 1].status == 1){
-    let new_score = ships[ships_len - 1].score + score;
-    return end_game_summary(ships_len - 1, ships, ships_dict, new_score);
-    }
-
-  end_game_summary(ships_len - 1, ships, ships_dict, score);
-  return(ships_len, ships, score);
+  let new_score = ships[ships_len - 1].score + score;
+  return end_game_summary(ships_len - 1, ships, ships_dict, new_score);
   }
 
 

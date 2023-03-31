@@ -3372,18 +3372,6 @@
             "0x484480017fff8000",
             "0x7",
             "0x482480017fff8000",
-            "0x2",
-            "0x48327fff7ffb8000",
-            "0x480080007fff8000",
-            "0x482480017fff8000",
-            "0x800000000000011000000000000000000000000000000000000000000000000",
-            "0x20680017fff7fff",
-            "0x14",
-            "0x482680017ffa8000",
-            "0x800000000000011000000000000000000000000000000000000000000000000",
-            "0x484480017fff8000",
-            "0x7",
-            "0x482480017fff8000",
             "0x6",
             "0x48327fff7ffb8000",
             "0x480080007fff8000",
@@ -3392,25 +3380,10 @@
             "0x482680017ffa8000",
             "0x800000000000011000000000000000000000000000000000000000000000000",
             "0x480a7ffb7fff8000",
-            "0x48127fcd7fff8000",
+            "0x48127fd37fff8000",
             "0x48287ffd7ffa8000",
             "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff9a",
-            "0x208b7fff7fff7ffe",
-            "0x480a7ff87fff8000",
-            "0x480a7ff97fff8000",
-            "0x482680017ffa8000",
-            "0x800000000000011000000000000000000000000000000000000000000000000",
-            "0x480a7ffb7fff8000",
-            "0x48127fd27fff8000",
-            "0x480a7ffd7fff8000",
-            "0x1104800180018000",
-            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffff90",
-            "0x48127ffb7fff8000",
-            "0x48127ffb7fff8000",
-            "0x480a7ffa7fff8000",
-            "0x480a7ffb7fff8000",
-            "0x480a7ffd7fff8000",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffa6",
             "0x208b7fff7fff7ffe"
         ],
         "debug_info": {
@@ -70555,12 +70528,24 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 25,
+                        "end_col": 38,
                         "end_line": 227,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 12,
+                        "parent_location": [
+                            {
+                                "end_col": 70,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 61,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'new_score' in:"
+                        ],
+                        "start_col": 25,
                         "start_line": 227
                     }
                 },
@@ -70572,12 +70557,24 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 26,
+                        "end_col": 39,
                         "end_line": 227,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 6,
+                        "parent_location": [
+                            {
+                                "end_col": 70,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 61,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'new_score' in:"
+                        ],
+                        "start_col": 19,
                         "start_line": 227
                     }
                 },
@@ -70589,12 +70586,24 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 33,
+                        "end_col": 45,
                         "end_line": 227,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 6,
+                        "parent_location": [
+                            {
+                                "end_col": 70,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 61,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'new_score' in:"
+                        ],
+                        "start_col": 19,
                         "start_line": 227
                     }
                 },
@@ -70606,12 +70615,24 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 33,
+                        "end_col": 45,
                         "end_line": 227,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 6,
+                        "parent_location": [
+                            {
+                                "end_col": 70,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 61,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'new_score' in:"
+                        ],
+                        "start_col": 19,
                         "start_line": 227
                     }
                 },
@@ -70623,12 +70644,24 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 33,
+                        "end_col": 45,
                         "end_line": 227,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 6,
+                        "parent_location": [
+                            {
+                                "end_col": 70,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 61,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'new_score' in:"
+                        ],
+                        "start_col": 19,
                         "start_line": 227
                     }
                 },
@@ -70640,16 +70673,40 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 38,
-                        "end_line": 227,
+                        "end_col": 41,
+                        "end_line": 216,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 6,
-                        "start_line": 227
+                        "parent_location": [
+                            {
+                                "end_col": 41,
+                                "end_line": 216,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "parent_location": [
+                                    {
+                                        "end_col": 71,
+                                        "end_line": 228,
+                                        "input_file": {
+                                            "filename": "src/simulation.cairo"
+                                        },
+                                        "start_col": 10,
+                                        "start_line": 228
+                                    },
+                                    "While trying to retrieve the implicit argument 'syscall_ptr' in:"
+                                ],
+                                "start_col": 23,
+                                "start_line": 216
+                            },
+                            "While expanding the reference 'syscall_ptr' in:"
+                        ],
+                        "start_col": 23,
+                        "start_line": 216
                     }
                 },
-                "2925": {
+                "2924": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.end_game_summary"
@@ -70657,16 +70714,40 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 5,
-                        "end_line": 227,
+                        "end_col": 58,
+                        "end_line": 216,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "start_col": 3,
-                        "start_line": 227
+                        "parent_location": [
+                            {
+                                "end_col": 58,
+                                "end_line": 216,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "parent_location": [
+                                    {
+                                        "end_col": 71,
+                                        "end_line": 228,
+                                        "input_file": {
+                                            "filename": "src/simulation.cairo"
+                                        },
+                                        "start_col": 10,
+                                        "start_line": 228
+                                    },
+                                    "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                                ],
+                                "start_col": 43,
+                                "start_line": 216
+                            },
+                            "While expanding the reference 'range_check_ptr' in:"
+                        ],
+                        "start_col": 43,
+                        "start_line": 216
                     }
                 },
-                "2927": {
+                "2925": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.end_game_summary"
@@ -70679,20 +70760,66 @@
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
+                        "start_col": 27,
+                        "start_line": 228
+                    }
+                },
+                "2927": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__.end_game_summary"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 94,
+                        "end_line": 216,
+                        "input_file": {
+                            "filename": "src/simulation.cairo"
+                        },
                         "parent_location": [
                             {
-                                "end_col": 72,
-                                "end_line": 229,
+                                "end_col": 47,
+                                "end_line": 228,
                                 "input_file": {
                                     "filename": "src/simulation.cairo"
                                 },
-                                "start_col": 63,
-                                "start_line": 229
+                                "start_col": 42,
+                                "start_line": 228
                             },
-                            "While expanding the reference 'new_score' in:"
+                            "While expanding the reference 'ships' in:"
                         ],
-                        "start_col": 27,
-                        "start_line": 228
+                        "start_col": 77,
+                        "start_line": 216
+                    }
+                },
+                "2928": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__.end_game_summary"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 44,
+                        "end_line": 223,
+                        "input_file": {
+                            "filename": "src/simulation.cairo"
+                        },
+                        "parent_location": [
+                            {
+                                "end_col": 59,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 49,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'ships_dict' in:"
+                        ],
+                        "start_col": 34,
+                        "start_line": 223
                     }
                 },
                 "2929": {
@@ -70703,28 +70830,45 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 41,
+                        "end_col": 53,
+                        "end_line": 227,
+                        "input_file": {
+                            "filename": "src/simulation.cairo"
+                        },
+                        "parent_location": [
+                            {
+                                "end_col": 70,
+                                "end_line": 228,
+                                "input_file": {
+                                    "filename": "src/simulation.cairo"
+                                },
+                                "start_col": 61,
+                                "start_line": 228
+                            },
+                            "While expanding the reference 'new_score' in:"
+                        ],
+                        "start_col": 19,
+                        "start_line": 227
+                    }
+                },
+                "2930": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__.end_game_summary"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 71,
                         "end_line": 228,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
-                        "parent_location": [
-                            {
-                                "end_col": 72,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 63,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'new_score' in:"
-                        ],
-                        "start_col": 21,
+                        "start_col": 10,
                         "start_line": 228
                     }
                 },
-                "2931": {
+                "2932": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__.end_game_summary"
@@ -70732,716 +70876,13 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 47,
+                        "end_col": 72,
                         "end_line": 228,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 72,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 63,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'new_score' in:"
-                        ],
-                        "start_col": 21,
-                        "start_line": 228
-                    }
-                },
-                "2933": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 47,
-                        "end_line": 228,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 72,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 63,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'new_score' in:"
-                        ],
-                        "start_col": 21,
-                        "start_line": 228
-                    }
-                },
-                "2934": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 47,
-                        "end_line": 228,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 72,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 63,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'new_score' in:"
-                        ],
-                        "start_col": 21,
-                        "start_line": 228
-                    }
-                },
-                "2935": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 41,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 41,
-                                "end_line": 216,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 73,
-                                        "end_line": 229,
-                                        "input_file": {
-                                            "filename": "src/simulation.cairo"
-                                        },
-                                        "start_col": 12,
-                                        "start_line": 229
-                                    },
-                                    "While trying to retrieve the implicit argument 'syscall_ptr' in:"
-                                ],
-                                "start_col": 23,
-                                "start_line": 216
-                            },
-                            "While expanding the reference 'syscall_ptr' in:"
-                        ],
-                        "start_col": 23,
-                        "start_line": 216
-                    }
-                },
-                "2936": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 58,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 58,
-                                "end_line": 216,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 73,
-                                        "end_line": 229,
-                                        "input_file": {
-                                            "filename": "src/simulation.cairo"
-                                        },
-                                        "start_col": 12,
-                                        "start_line": 229
-                                    },
-                                    "While trying to retrieve the implicit argument 'range_check_ptr' in:"
-                                ],
-                                "start_col": 43,
-                                "start_line": 216
-                            },
-                            "While expanding the reference 'range_check_ptr' in:"
-                        ],
-                        "start_col": 43,
-                        "start_line": 216
-                    }
-                },
-                "2937": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 42,
-                        "end_line": 229,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "start_col": 29,
-                        "start_line": 229
-                    }
-                },
-                "2939": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 94,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 49,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 44,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'ships' in:"
-                        ],
-                        "start_col": 77,
-                        "start_line": 216
-                    }
-                },
-                "2940": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 44,
-                        "end_line": 223,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 61,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 51,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'ships_dict' in:"
-                        ],
-                        "start_col": 34,
-                        "start_line": 223
-                    }
-                },
-                "2941": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 55,
-                        "end_line": 228,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 72,
-                                "end_line": 229,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 63,
-                                "start_line": 229
-                            },
-                            "While expanding the reference 'new_score' in:"
-                        ],
-                        "start_col": 21,
-                        "start_line": 228
-                    }
-                },
-                "2942": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 73,
-                        "end_line": 229,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "start_col": 12,
-                        "start_line": 229
-                    }
-                },
-                "2944": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 74,
-                        "end_line": 229,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "start_col": 5,
-                        "start_line": 229
-                    }
-                },
-                "2945": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 41,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 41,
-                                "end_line": 216,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 60,
-                                        "end_line": 232,
-                                        "input_file": {
-                                            "filename": "src/simulation.cairo"
-                                        },
-                                        "start_col": 3,
-                                        "start_line": 232
-                                    },
-                                    "While trying to retrieve the implicit argument 'syscall_ptr' in:"
-                                ],
-                                "start_col": 23,
-                                "start_line": 216
-                            },
-                            "While expanding the reference 'syscall_ptr' in:"
-                        ],
-                        "start_col": 23,
-                        "start_line": 216
-                    }
-                },
-                "2946": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 58,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 58,
-                                "end_line": 216,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 60,
-                                        "end_line": 232,
-                                        "input_file": {
-                                            "filename": "src/simulation.cairo"
-                                        },
-                                        "start_col": 3,
-                                        "start_line": 232
-                                    },
-                                    "While trying to retrieve the implicit argument 'range_check_ptr' in:"
-                                ],
-                                "start_col": 43,
-                                "start_line": 216
-                            },
-                            "While expanding the reference 'range_check_ptr' in:"
-                        ],
-                        "start_col": 43,
-                        "start_line": 216
-                    }
-                },
-                "2947": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 33,
-                        "end_line": 232,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "start_col": 20,
-                        "start_line": 232
-                    }
-                },
-                "2949": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 94,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 40,
-                                "end_line": 232,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 35,
-                                "start_line": 232
-                            },
-                            "While expanding the reference 'ships' in:"
-                        ],
-                        "start_col": 77,
-                        "start_line": 216
-                    }
-                },
-                "2950": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 44,
-                        "end_line": 223,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 52,
-                                "end_line": 232,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 42,
-                                "start_line": 232
-                            },
-                            "While expanding the reference 'ships_dict' in:"
-                        ],
-                        "start_col": 34,
-                        "start_line": 223
-                    }
-                },
-                "2951": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 132,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 59,
-                                "end_line": 232,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 54,
-                                "start_line": 232
-                            },
-                            "While expanding the reference 'score' in:"
-                        ],
-                        "start_col": 121,
-                        "start_line": 216
-                    }
-                },
-                "2952": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 60,
-                        "end_line": 232,
                         "input_file": {
                             "filename": "src/simulation.cairo"
                         },
                         "start_col": 3,
-                        "start_line": 232
-                    }
-                },
-                "2954": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 41,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 60,
-                                "end_line": 232,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 41,
-                                        "end_line": 216,
-                                        "input_file": {
-                                            "filename": "src/simulation.cairo"
-                                        },
-                                        "parent_location": [
-                                            {
-                                                "end_col": 35,
-                                                "end_line": 233,
-                                                "input_file": {
-                                                    "filename": "src/simulation.cairo"
-                                                },
-                                                "start_col": 3,
-                                                "start_line": 233
-                                            },
-                                            "While trying to retrieve the implicit argument 'syscall_ptr' in:"
-                                        ],
-                                        "start_col": 23,
-                                        "start_line": 216
-                                    },
-                                    "While expanding the reference 'syscall_ptr' in:"
-                                ],
-                                "start_col": 3,
-                                "start_line": 232
-                            },
-                            "While trying to update the implicit return value 'syscall_ptr' in:"
-                        ],
-                        "start_col": 23,
-                        "start_line": 216
-                    }
-                },
-                "2955": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 58,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 60,
-                                "end_line": 232,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 58,
-                                        "end_line": 216,
-                                        "input_file": {
-                                            "filename": "src/simulation.cairo"
-                                        },
-                                        "parent_location": [
-                                            {
-                                                "end_col": 35,
-                                                "end_line": 233,
-                                                "input_file": {
-                                                    "filename": "src/simulation.cairo"
-                                                },
-                                                "start_col": 3,
-                                                "start_line": 233
-                                            },
-                                            "While trying to retrieve the implicit argument 'range_check_ptr' in:"
-                                        ],
-                                        "start_col": 43,
-                                        "start_line": 216
-                                    },
-                                    "While expanding the reference 'range_check_ptr' in:"
-                                ],
-                                "start_col": 3,
-                                "start_line": 232
-                            },
-                            "While trying to update the implicit return value 'range_check_ptr' in:"
-                        ],
-                        "start_col": 43,
-                        "start_line": 216
-                    }
-                },
-                "2956": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 75,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 19,
-                                "end_line": 233,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 10,
-                                "start_line": 233
-                            },
-                            "While expanding the reference 'ships_len' in:"
-                        ],
-                        "start_col": 60,
-                        "start_line": 216
-                    }
-                },
-                "2957": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 94,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 26,
-                                "end_line": 233,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 21,
-                                "start_line": 233
-                            },
-                            "While expanding the reference 'ships' in:"
-                        ],
-                        "start_col": 77,
-                        "start_line": 216
-                    }
-                },
-                "2958": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 132,
-                        "end_line": 216,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 33,
-                                "end_line": 233,
-                                "input_file": {
-                                    "filename": "src/simulation.cairo"
-                                },
-                                "start_col": 28,
-                                "start_line": 233
-                            },
-                            "While expanding the reference 'score' in:"
-                        ],
-                        "start_col": 121,
-                        "start_line": 216
-                    }
-                },
-                "2959": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__.end_game_summary"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 35,
-                        "end_line": 233,
-                        "input_file": {
-                            "filename": "src/simulation.cairo"
-                        },
-                        "start_col": 3,
-                        "start_line": 233
+                        "start_line": 228
                     }
                 }
             }
