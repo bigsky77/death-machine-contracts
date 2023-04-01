@@ -2,7 +2,7 @@ const N_TURNS = 49;
 const PC = 7;
 const BOARD_SIZE = 225;
 const BOARD_DIMENSION = 15;
-const BLOCK_TIME = 3600; // 0 for testing 
+const BLOCK_TIME = 1200; // 0 for testing 
 const TARGET_SCORE = 20; // 0 for testing 
 
 namespace ns_instructions {

@@ -49,7 +49,7 @@ from src.utils.utils import cords_to_index
 @constructor
 func constructor{syscall_ptr: felt*, bitwise_ptr: BitwiseBuiltin*, pedersen_ptr: HashBuiltin*, range_check_ptr}(seed: felt) {
     alloc_locals;
-    Block.init(seed, 0);
+    Block.init(seed);
     return();
   }
 

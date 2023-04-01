@@ -67,7 +67,7 @@ namespace Block {
       syscall_ptr: felt*, 
       bitwise_ptr: BitwiseBuiltin*, 
       pedersen_ptr: HashBuiltin*, 
-      range_check_ptr}(block_number: felt, score: felt) -> (){
+      range_check_ptr}(block_number: felt) -> (){
         alloc_locals;
 
         let (block_timestamp) = get_block_timestamp();
@@ -112,7 +112,8 @@ namespace Block {
       // Returns 1 if a <= b (or more precisely 0 <= b - a < RANGE_CHECK_BOUND).
       let is_new_high_score = is_le(score, block.score);
       let full_time_elapsed = is_le(diff, BLOCK_TIME);
-
+  
+      // if new high score YES and full time elapsed YES
       if(is_new_high_score == 0 and full_time_elapsed == 0 ){
         tempvar updated_block = BlockData(
           block.number, 
@@ -125,11 +126,12 @@ namespace Block {
           score);   
 
           Block_Storage.write(block_number, updated_block);
-          init(block_number + 1, score);
+          init(block_number + 1);
           blockComplete.emit(updated_block);
         return();
       }
 
+      // if new high score YES and full time elapsed NO 
       if(is_new_high_score == 0 and full_time_elapsed == 1 ){
        tempvar updated_block = BlockData(
           block.number, 
@@ -145,6 +147,7 @@ namespace Block {
           return();
       }
       
+      // if new high score NO and full time elapsed YES 
       if(is_new_high_score == 1 and full_time_elapsed == 0 ){
        tempvar updated_block = BlockData(
           block.number, 
@@ -157,7 +160,7 @@ namespace Block {
           block.score);   
 
           Block_Storage.write(block_number, updated_block);
-          init(block_number + 1, score);
+          init(block_number + 1);
           blockComplete.emit(updated_block);
           return();
       }

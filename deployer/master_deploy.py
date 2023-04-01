@@ -11,7 +11,7 @@ from starknet_py.net.udc_deployer.deployer import Deployer
 import os
 from dotenv import load_dotenv
 
-load_dotenv(.env.local)
+#load_dotenv(.env.local)
 
 # Local network
 key = os.getenv('KEY')
